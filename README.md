@@ -36,9 +36,17 @@ This is a blog app built to learn about RESTful APIs. It provides the backend fu
         ```
 
 4.  **Database Setup:**
-
+    * Make sure to create a new database in psql using the same database_name at the end of your DATABASE_URL in the .env file. 
+        ```bash
+        psql # Connect to PostgreSQL terminal
+        CREATE DATABASE <database_name>; # Should return CREATE DATABASE
+        \l # Check that the database was successfully created
+        \q # Exit
+        ```
+      
     * Set up the database schema with Prisma:
         ```bash
+        npx prisma generate
         npx prisma migrate dev
         ```
 
