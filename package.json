@@ -1,0 +1,26 @@
+{
+  "type": "module",
+  "name": "blog-api",
+  "version": "1.0.0",
+  "description": "This is a blog app built to learn about RESTful APIs. It provides the backend functionality for a blog application, allowing admins (with extra permissions) to create, read, update, and delete blog posts. In addition, users (with lower permissions) will only be able to read blog posts and create and view other comments. Users will not be able to create their own blog posts because this is only meant as a personal blog for the admin (this project is limited in scope and will not be a full-blown social media app).",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kennn1510/blog-api.git"
+  },
+  "keywords": [],
+  "author": "Ken Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kennn1510/blog-api/issues"
+  },
+  "homepage": "https://github.com/kennn1510/blog-api#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  }
+}
