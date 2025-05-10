@@ -40,7 +40,6 @@ This is a blog app built to learn about RESTful APIs. It provides the backend fu
     * Set up the database schema with Prisma:
         ```bash
         npx prisma migrate dev
-        # Optional: npx prisma db seed
         ```
 
 5.  **Running the API:**
