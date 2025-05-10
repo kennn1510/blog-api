@@ -83,7 +83,7 @@ Here's a list of the main API endpoints:
 
 * Users need to register and log in to obtain a JWT (JSON Web Token).
 * This token is typically included in the `Authorization` header of subsequent requests that require authentication (e.g., creating, updating, or deleting posts). The token is usually sent as a Bearer token: `Authorization: Bearer <your_jwt>`.
-* You can test authorization easily using Postman. Just include in the Headers of the request a Key:Value pair, e.g., `Authorization: Bearer<your_jwt>`. 
+* You can test authorization easily using Postman. Just include in the Headers of the request a Key:Value pair, e.g., `Authorization: Bearer <your_jwt>`. 
 
 ## Potential Future Enhancements
 
