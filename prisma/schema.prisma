@@ -14,16 +14,15 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+model Post {
+  id      Int    @id @default(autoincrement())
+  title   String
+  content String
+}
+
 model User {
   id        Int      @id @default(autoincrement())
   createdAt DateTime @default(now())
   email     String   @unique
   name      String?
-}
-
-model Session {
-  id        String   @id
-  sid       String   @unique
-  data      String
-  expiresAt DateTime
 }

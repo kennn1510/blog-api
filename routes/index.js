@@ -1,5 +1,7 @@
-import home from "./home.js";
+import posts from "./posts.js";
+import auth from "./auth.js";
 
 export default {
-  home,
+  posts,
+  auth,
 };
