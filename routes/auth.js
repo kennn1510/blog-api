@@ -1,3 +1,5 @@
+import "dotenv/config";
+
 import { Router } from "express";
 import passport from "../config/passport-config.js";
 import jwt from "jsonwebtoken";

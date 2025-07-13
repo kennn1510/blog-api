@@ -1,3 +1,5 @@
+import "dotenv/config";
+
 import passport from "passport";
 import { PrismaClient } from "../generated/prisma/client.js";
 import { Strategy as JwtStrategy, ExtractJwt } from "passport-jwt";
